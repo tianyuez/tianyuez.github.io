@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="theme-color" content="#f5f5f1">
+  <meta name="description" content="{{ site.name }} — {{ site.title }} at {{ site.institution }}. Research in embodied AI, physical AI, mobile systems, and sensing-system security.">
+  <title>{{ title or site.name }} — SUSTech</title>
+  <link rel="icon" href="{{ '/favicon.ico' | withBase }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | withBase }}">
+  <script>
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } };
+    window.SITE_TRANSLATIONS = {{ translations | json | safe }};
+  </script>
+  <script defer src="{{ '/assets/mathjax-tex-svg.js' | withBase }}"></script>
+  <script defer src="{{ '/assets/site.js' | withBase }}"></script>
+</head>
+<body class="{{ bodyClass or '' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="{{ '/' | withBase }}" aria-label="{{ site.name }} home"><b>{{ site.name | upper }}</b></a>
+    <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+    <a href="{{ '/' | withBase }}" data-i18n="Home">Home</a><a href="{{ '/publications/' | withBase }}" data-i18n="Publications">Publications</a><a href="{{ '/about/' | withBase }}" data-i18n="About">About</a><a href="{{ '/people/' | withBase }}" data-i18n="Teaching">Teaching</a>
+      <a class="nav-cv" href="{{ '/CV.pdf' | withBase }}">CV ↗</a><button class="lang-toggle icon-button" type="button" aria-label="切换为中文">中文</button><button class="theme-toggle icon-button" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button>
+    </nav>
+  </header>
+  <main id="main">{{ content | safe }}</main>
+  <footer class="site-footer shell"><div><b>{{ site.name }}</b><span>{{ site.title }} at {{ site.institution }}</span></div><div class="ownership-lock" id="site-copyright" data-owner-seal="dHl6LTIwMjY"><span class="ownership-label">Copyright / Attribution</span><span>© {{ '' | currentYear }}</span><b>&#84;&#105;&#97;&#110;&#121;&#117;&#101;&#32;&#90;&#104;&#101;&#110;&#103;</b><span>Site design and original content · Please retain attribution.</span></div><div><span>Built for the open web.</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "tianyuez-academic-website",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "check": "node scripts/validate-content.mjs",
+    "translate": "node scripts/translate-content.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.2",
+    "js-yaml": "4.3.1"
+  }
+}

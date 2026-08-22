@@ -1,0 +1,7 @@
+---
+layout: base.njk
+title: Teaching & People
+permalink: /people/
+---
+<section class="page-hero shell"><p class="section-number"><span data-i18n="People">PEOPLE</span> / <span data-i18n="Teaching">TEACHING</span></p><h1 data-i18n="Teaching and people">Teaching and people</h1></section>
+<section class="section shell"><div class="people-grid"><div><h2 class="compact-heading" data-i18n="Teaching">Teaching</h2>{% for item in site.teaching %}<article class="person-item"><h3><span data-translate>{{ item.course }}</span> <small>{{ item.code }}</small></h3><p>{{ item.period }}</p><p data-translate>{{ item.role }}</p></article>{% endfor %}</div><div><h2 class="compact-heading" data-i18n="Alumni">Alumni</h2>{% for item in site.alumni %}<article class="person-item"><h3>{{ item.name }}</h3><p><span data-translate>{{ item.period }}</span> → <span data-translate>{{ item.next }}</span></p><p data-translate>{{ item.work }}</p></article>{% endfor %}</div></div></section>

@@ -1,0 +1,56 @@
+{
+  "Home": "首页",
+  "Publications": "论文",
+  "About": "关于",
+  "Teaching": "教学",
+  "Research": "研究方向",
+  "News": "动态",
+  "Recent": "近期",
+  "updates.": "动态。",
+  "Now": "当前",
+  "Profile": "简介",
+  "People": "成员",
+  "Context for the": "研究",
+  "work.": "经历",
+  "Research experience": "研究经历",
+  "Publication archive": "发表论文",
+  "The publication archive is temporarily unavailable.": "论文列表暂时无法加载。",
+  "First Author": "第一作者",
+  "Co-first Author": "共同第一作者",
+  "Corresponding Author": "通讯作者",
+  "First & Corresponding Author": "第一作者兼通讯作者",
+  "More about the work": "了解更多",
+  "Collaborate / Join us": "合作 / 加入我们",
+  "Contact": "联系",
+  "Open positions": "招生与招聘",
+  "Join the research group": "加入课题组",
+  "Recent news": "近期动态",
+  "Research focus": "研究方向",
+  "Embodied and physical AI systems for real-world environments.": "面向真实环境的具身智能与物理人工智能系统。",
+  "About my research": "研究简介",
+  "Selected work": "代表性成果",
+  "Selected publications": "代表性论文",
+  "Teaching and people": "教学与成员",
+  "Assistant Professor · Doctoral Supervisor": "助理教授 · 博士生导师",
+  "I build learning systems that connect perception, physical reasoning, and action in the real world. My work spans embodied and physical AI, multimodal sensing, foundation models, and secure autonomous systems.": "致力于构建连接现实世界感知、物理推理与行动的学习系统，研究涵盖具身智能、物理人工智能、多模态感知、基础模型与安全自主系统。",
+  "We have openings for Ph.D. students and postdoctoral research fellows. Please email me with your CV if you are interested.": "课题组长期招收博士研究生和博士后研究员，欢迎有兴趣的同学通过邮件联系并附上个人简历。",
+  "Physical AI": "物理人工智能",
+  "Embodied AI": "具身智能",
+  "Wireless Sensing": "无线感知",
+  "Mobile Computing": "移动计算",
+  "Sensing Security": "感知安全"
+  ,"Perception & Action": "感知与行动"
+  ,"Foundation Models": "基础模型"
+  ,"Autonomous Systems": "自主系统"
+  ,"Mobile Systems": "移动系统"
+  ,"Sensing System Security": "感知系统安全"
+  ,"Experience": "工作经历"
+  ,"Education": "教育经历"
+  ,"Grants & talks": "科研项目与报告"
+  ,"Service": "学术服务"
+  ,"Professional service": "专业服务"
+  ,"Alumni": "成员去向"
+    ,"archive.": "发表论文"
+  ,"A searchable record of work in physical AI, wireless sensing, mobile computing, and sensing security.": "物理人工智能、无线感知、移动计算与感知安全方向的可检索研究成果。"
+,"A searchable record of work in embodied AI, physical AI, mobile systems, and sensing-system security.": "具身智能、物理人工智能、移动系统与感知系统安全方向的可检索研究成果。"
+}

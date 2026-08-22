@@ -1,0 +1,173 @@
+name: Tianyue Zheng
+chineseName: 郑天越
+title: Assistant Professor · Doctoral Supervisor
+institution: Southern University of Science and Technology
+school: School of Computer Science and Engineering
+location: Shenzhen, China
+office: Office 612, College of Engineering
+email: zhengty@sustech.edu.cn
+photo: /photos/photo.jpg
+bio: I build learning systems that connect perception, physical reasoning, and action in the real world. My work spans embodied and physical AI, multimodal sensing, foundation models, and secure autonomous systems.
+recruitment: We have openings for Ph.D. students and postdoctoral research fellows. Please email me with your CV if you are interested.
+
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=A-YvDJgAAAAJ&hl=en
+  - label: University Profile
+    url: https://faculty.sustech.edu.cn/zhengty
+  - label: CV
+    url: /CV.pdf
+
+research:
+  - Embodied AI
+  - Physical AI
+  - Mobile Systems
+  - Sensing System Security
+
+# Curated homepage papers. Scholar supplies the complete archive; these five
+# retain the author's preferred metadata and authorship labels.
+selectedPublications:
+  - title: "SRay: Super-resolution Wireless Indoor Localization via Inverse Differentiable Ray-tracing"
+    authors: "Guoquan Wu, Tianyue Zheng"
+    venue: "IEEE Transactions on Mobile Computing"
+    year: 2026
+    tag: "Localization"
+    role: "Corresponding Author"
+  - title: "Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries"
+    authors: "Hengwei Chen, Menglan Hu, Tianyue Zheng"
+    venue: "IEEE Symposium on Security and Privacy"
+    year: 2026
+    tag: "Security"
+    role: "Corresponding Author"
+  - title: "RayLoc: Wireless Indoor Localization via Fully Differentiable Ray-tracing"
+    authors: "Xueqiang Han, Tianyue Zheng, Menglan Hu, Chao Cai, Tony Xiao Han, Jun Luo"
+    venue: "ACM UbiComp"
+    year: 2026
+    tag: "Localization"
+    role: "Corresponding Author"
+  - title: "π-Jack: Physical-World Adversarial Attack on Monocular Depth Estimation with Perspective Hijacking"
+    authors: "Tianyue Zheng, Jingzhi Hu, Rui Tan, Yinqian Zhang, Ying He, Jun Luo"
+    venue: "USENIX Security"
+    year: 2024
+    tag: "Security"
+    role: "First Author"
+  - title: "AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving"
+    authors: "Tianyue Zheng, Ang Li, Zhe Chen, Hongbo Wang, Jun Luo"
+    venue: "ACM MobiCom"
+    year: 2023
+    tag: "Edge AI"
+    role: "First Author"
+
+news:
+  - date: Jul 2026
+    text: One paper accepted by IEEE TMC.
+    url: https://ieeexplore.ieee.org/document/11592642/
+  - date: Apr 2026
+    text: One paper accepted by IEEE S&P.
+    url: https://sp2026.ieee-security.org/
+  - date: Apr 2026
+    text: One paper accepted by ACM UbiComp.
+    url: https://dl.acm.org/journal/imwut
+  - date: Jan 2026
+    text: One paper accepted by ACM SenSys.
+    url: https://sensys.acm.org/2026/
+  - date: Dec 2025
+    text: One paper accepted by IEEE TIFS.
+    url: https://ieeexplore.ieee.org/document/11296883/
+
+experience:
+  - period: 2023–Present
+    role: Assistant Professor · Doctoral Supervisor
+    place: Southern University of Science and Technology
+    location: Shenzhen, China
+  - period: Aug–Nov 2022
+    role: Research Scientist, BioXR
+    place: Meta Reality Labs
+    location: Burlingame, United States
+  - period: "2016"
+    role: Student Intern
+    place: Coding and Communication Lab, Sungkyunkwan University
+    location: Suwon, Korea
+
+education:
+  - period: 2019–2023
+    degree: Ph.D. in Computer Science
+    place: Nanyang Technological University
+    detail: Advisor · Prof. Jun Luo
+  - period: 2017–2019
+    degree: M.Eng. in Electrical and Computer Engineering
+    place: University of Toronto
+    detail: Toronto, Canada
+  - period: 2013–2017
+    degree: B.Eng. in Telecommunication Engineering
+    place: Harbin Institute of Technology
+    detail: Harbin, China
+
+grants:
+  - Youth Fund of National Natural Science Foundation of China · PI
+  - General Project of Guangdong Basic and Applied Basic Research Foundation · PI
+  - General Project of Shenzhen Science and Technology Innovation Program · PI
+  - Enterprise–University Joint Algorithm Pre-research Program · PI
+
+talks:
+  - High-Performance Wireless Sensing Driven by Physical AI and Foundation Models · Huawei Wireless Professor Forum
+  - Algorithmic Sensing for Energy-Efficient Green Edge Computing · NRF FRC Green Edge Workshop
+
+awards:
+  - year: "2026"
+    title: Distinguished Reviewer
+    detail: ACM Transactions on Sensor Networks
+  - year: "2025"
+    title: World’s Top 2% Scientist
+    detail: Stanford/Elsevier global citation ranking
+  - year: "2023"
+    title: Shenzhen Peacock Talent Program
+    detail: Category C
+  - year: "2023"
+    title: ACM MobiSys Rising Star
+    detail: ACM MobiSys
+  - year: 2019–2023
+    title: Research Scholarship
+    detail: Nanyang Technological University
+
+teaching:
+  - period: 2025–Present
+    course: Advanced Computer Networks
+    code: CS5005
+    role: Instructor · SUSTech
+  - period: 2024–Present
+    course: Computer Networks
+    code: CS305
+    role: Instructor · SUSTech
+  - period: 2023–2024
+    course: Data Mining
+    code: CS306
+    role: Instructor · SUSTech
+  - period: 2019–2021
+    course: Computer Networks / Introduction to Computational Thinking
+    code: CE3005 / CZ3006 / CE1003
+    role: Teaching Assistant · NTU
+  - period: Spring 2019
+    course: Communication Systems
+    code: ECE316
+    role: Teaching Assistant · University of Toronto
+
+service:
+  - label: Executive Member
+    text: CCF Pervasive Computing Committee · 2024–Present
+  - label: TPC Member
+    text: IEEE INFOCOM, ACM MobiSys, IEEE ICPADS, IEEE ICASSP, IEEE MSN, IEEE UIC, IEEE/ACM CHASE, AIoTSys, ACM S3
+  - label: Reviewer
+    text: ACM MobiCom, IEEE TPAMI, IEEE TMC, AAAI, ACM UbiComp, IEEE IoTJ, IEEE TIFS, ACM TOSN, ACM TIoT, ICASSP
+  - label: AEC Member
+    text: ACM SIGCOMM
+
+alumni:
+  - name: Yuxuan Weng
+    period: Research Assistant · 2024–2025
+    next: Ph.D. at HKUST
+    work: 2 IEEE TMC papers and 1 ACM SenSys paper
+  - name: Xueqiang Han
+    period: Research Assistant · 2024–2025
+    next: Ph.D. at HUST
+    work: 1 IEEE TIFS, 1 ACM SenSys, and 1 ACM UbiComp paper
